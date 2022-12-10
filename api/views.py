@@ -7,7 +7,6 @@ from django.http import JsonResponse
 import json
 from django.conf import settings
 import os
-from sklearn.preprocessing import OneHotEncoder
 
 base_dir = settings.MEDIA_ROOT
 file_path_crop1 = os.path.join(
